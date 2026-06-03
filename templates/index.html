@@ -30,9 +30,9 @@
             <td>{{ student.name }}</td>
             <td>{{ student.age }}</td>
             <td>
-                <a href="/edit/{{ loop.index0 }}">Edit</a>
-                <a href="/delete/{{ loop.index0 }}">Delete</a>
-            </td>
+    <a href="/edit/{{ student.id }}">Edit</a>
+    <a href="/delete/{{ student.id }}">Delete</a>
+</td>
         </tr>
         {% endfor %}
 
